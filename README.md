@@ -1,4 +1,7 @@
-# test coverage for  [tcp-ping (v0.1.1)](https://github.com/wesolyromek/tcp-ping)  [![npm package](https://img.shields.io/npm/v/npmtest-tcp-ping.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tcp-ping) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tcp-ping.svg)](https://travis-ci.org/npmtest/node-npmtest-tcp-ping)
+# npmtest-tcp-ping
+
+#### basic test coverage for  [tcp-ping (v0.1.1)](https://github.com/wesolyromek/tcp-ping)  [![npm package](https://img.shields.io/npm/v/npmtest-tcp-ping.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tcp-ping) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tcp-ping.svg)](https://travis-ci.org/npmtest/node-npmtest-tcp-ping)
+
 #### A ping utility using TCP connection
 
 [![NPM](https://nodei.co/npm/tcp-ping.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/tcp-ping)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-tcp-ping/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-tcp-ping/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-tcp-ping/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-tcp-ping/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tcp-ping/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tcp-ping/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-tcp-ping/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-tcp-ping/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tcp-ping/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tcp-ping/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-tcp-ping/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-tcp-ping/build/coverage.html/index.html)
 
@@ -69,7 +72,8 @@
     "scripts": {
         "test": "echo 0"
     },
-    "version": "0.1.1"
+    "version": "0.1.1",
+    "bin": {}
 }
 ```
 
